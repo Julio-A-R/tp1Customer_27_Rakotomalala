@@ -7,9 +7,9 @@ package mg.itu.tp1customer_27_rakotomalala.ejb;
 import mg.itu.tp1customer_27_rakotomalala.entities.Customer;
 import jakarta.ejb.Stateless;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.Query;
 
 /**
  * Gère la persistance des Customers.
